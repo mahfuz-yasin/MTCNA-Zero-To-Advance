@@ -91,7 +91,8 @@ ip address add address=192.168.0.1/24 interface=ether2
 ### Step 03: Default Route Configure
 
 ```bash
-ip route add gateway=100.0.0.1
+ip route add gateway=100.0.0.1  
+[ip route add gateway=nextHop_address]
 ```
 
 ### Step 04: NAT Configure
